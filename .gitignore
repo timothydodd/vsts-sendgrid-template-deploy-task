@@ -11,3 +11,5 @@ coverage
 test-report.xml
 test-report.html
 test-report.json
+/**/*.js
+/**/*.log

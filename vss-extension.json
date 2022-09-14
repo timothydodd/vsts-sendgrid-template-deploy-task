@@ -2,9 +2,9 @@
     "manifestVersion": 1,
     "id": "deploysendgridtemplate",
     "name": "Deploy SendGrid Templates",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "public": true,
-    "publisher": "timothydodd",
+    "publisher": "robododd",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -12,7 +12,7 @@
     ],
     "description": "Task to deploy and update existing SendGrid Templates",
     "categories": [
-        "Build and release"
+        "Azure Pipelines"
     ],
     "tags": [
         "release",
@@ -26,7 +26,7 @@
         }
     },
     "icons": {
-        "default": "icon.png"
+        "default": "images/icon.png"
     },
     "branding": {
         "color": "#1C3272",
@@ -46,7 +46,7 @@
     },
     "files": [
         {
-            "path": ""
+            "path": "task"
         }
     ],
     "contributions": [
@@ -57,7 +57,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "tasks"
+                "name": "task"
             }
         }
     ]

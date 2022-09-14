@@ -2,13 +2,9 @@
     "id": "56c8065f-d2e0-4edd-b82a-11df6046a074",
     "name": "sendgridtemplatedeploy",
     "friendlyName": "SendGrid Template Deploy",
-    "description": "Deploy Sengrid Templates",
+    "description": "Deploy SenGrid Templates",
     "category": "Utility",
     "author": "Tim Dodd",
-    "visibility": [
-        "Build",
-        "Release"
-    ],
     "version": {
         "Major": "1",
         "Minor": "0",

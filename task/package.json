@@ -4,7 +4,7 @@
   "description": "Build task for VS Team Services that can deploy SendGrid Templates",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && mocha dist/tests/L0.js"
+    "test": "tsc && mocha tests/L0.js"
   },
   "repository": {
     "type": "git",
