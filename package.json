@@ -1,0 +1,42 @@
+{
+  "name": "vsts-sendgrid-template-deploy-task",
+  "version": "1.0.0",
+  "description": "Build task for VS Team Services that can deploy SendGrid Templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && mocha dist/tests/L0.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/timothydodd/vsts-sendgrid-template-deploy-task.git"
+  },
+  "keywords": [
+    "azure-pipeline",
+    "sendgrid"
+  ],
+  "author": "Tim Dodd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timothydodd/vsts-sendgrid-template-deploy-task/issues"
+  },
+  "homepage": "https://github.com/timothydodd/vsts-sendgrid-template-deploy-task#readme",
+  "dependencies": {
+    "@sendgrid/client": "^7.7.0",
+    "azure-pipelines-task-lib": "^4.0.0-preview",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.17",
+    "@types/q": "^1.5.5",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.21.0",
+    "mocha": "^10.0.0",
+    "ts-node": "~8.3.0",
+    "typescript": "~4.7.4"
+  }
+}

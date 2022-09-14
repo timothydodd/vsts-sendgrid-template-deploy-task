@@ -1,0 +1,64 @@
+{
+    "manifestVersion": 1,
+    "id": "deploysendgridtemplate",
+    "name": "Deploy SendGrid Templates",
+    "version": "1.0.0",
+    "public": true,
+    "publisher": "timothydodd",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Task to deploy and update existing SendGrid Templates",
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [
+        "release",
+        "build",
+        "sendgrid",
+        "template"
+    ],
+    "links": {
+        "support": {
+            "uri": "https://github.com/timothydodd/vsts-sendgrid-template-deploy-task/issues"
+        }
+    },
+    "icons": {
+        "default": "icon.png"
+    },
+    "branding": {
+        "color": "#1C3272",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/timothydodd/vsts-sendgrid-template-deploy-task"
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE.txt"
+        }
+    },
+    "files": [
+        {
+            "path": ""
+        }
+    ],
+    "contributions": [
+        {
+            "id": "deploysendgridtemplate-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "tasks"
+            }
+        }
+    ]
+}
